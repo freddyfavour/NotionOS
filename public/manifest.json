@@ -1,0 +1,17 @@
+{
+  "name": "NotionOS - AI Daily Planner",
+  "short_name": "NotionOS",
+  "description": "A magical AI-powered daily planner that syncs with your Notion workspace.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffcf2",
+  "theme_color": "#71717a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/5968/5968914.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

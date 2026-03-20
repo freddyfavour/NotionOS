@@ -17,6 +17,16 @@ export const KAWAII_COLORS: ThemeColor[] = [
   { name: 'Rose', primary: '#f4978e', light: '#fecaca' },
   { name: 'Aqua', primary: '#00f5d4', light: '#99f6e4' },
   { name: 'Lilac', primary: '#bdb2ff', light: '#e9d5ff' },
+  { name: 'Coral', primary: '#ff9e7d', light: '#ffc8b3' },
+  { name: 'Matcha', primary: '#88ab75', light: '#b8d8a0' },
+  { name: 'Blueberry', primary: '#7d8aff', light: '#b3bcff' },
+  { name: 'Grape', primary: '#a388ee', light: '#cdbdf7' },
+  { name: 'Tangerine', primary: '#ffb17d', light: '#ffd4b3' },
+  { name: 'Honey', primary: '#ffcc33', light: '#ffe082' },
+  { name: 'Pistachio', primary: '#b5e48c', light: '#d9ed92' },
+  { name: 'Turquoise', primary: '#48cae4', light: '#90e0ef' },
+  { name: 'Orchid', primary: '#f15bb5', light: '#f9a8d4' },
+  { name: 'Slate', primary: '#94a3b8', light: '#cbd5e1' },
 ];
 
 interface ThemeContextType {

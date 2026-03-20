@@ -84,7 +84,7 @@ export function Navigation() {
                   initial={{ opacity: 0, y: 10, scale: 0.95 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                  className="absolute bottom-full left-0 mb-6 w-full bg-white border-4 border-zinc-50 rounded-[2.5rem] p-6 shadow-2xl grid grid-cols-4 gap-3 z-50"
+                  className="absolute bottom-full left-0 mb-6 w-full bg-white border-4 border-zinc-50 rounded-[2.5rem] p-6 shadow-2xl grid grid-cols-5 gap-3 z-50"
                 >
                   {KAWAII_COLORS.map((color) => (
                     <button
@@ -163,7 +163,7 @@ export function Navigation() {
                   <Zap className="w-5 h-5 text-zinc-300" />
                 </button>
               </div>
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid grid-cols-5 gap-4">
                 {KAWAII_COLORS.map((color) => (
                   <button
                     key={color.name}
