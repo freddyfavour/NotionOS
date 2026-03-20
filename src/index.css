@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-kawaii-primary: var(--theme-color, #71717a); /* Default neutral zinc-500 */
+  --color-kawaii-primary-light: var(--theme-color-light, #a1a1aa);
+  --color-kawaii-bg: #fffcf2;
+}
+
+@layer base {
+  body {
+    @apply bg-kawaii-bg text-zinc-800 antialiased transition-colors duration-500;
+  }
+}
+
+.kawaii-card {
+  @apply bg-white border-4 border-zinc-100 rounded-[2.5rem] shadow-[0_8px_0_0_rgba(0,0,0,0.03)] transition-all duration-300;
+}
+
+.kawaii-card:hover {
+  @apply -translate-y-1 shadow-[0_12px_0_0_rgba(0,0,0,0.05)] border-kawaii-primary-light/30;
+}
+
+.kawaii-btn {
+  @apply px-6 py-3 rounded-2xl font-bold transition-all active:scale-95 flex items-center gap-2 shadow-[0_4px_0_0_rgba(0,0,0,0.1)];
+}
+
+.kawaii-btn-primary {
+  @apply bg-kawaii-primary text-white hover:opacity-90;
+}
+
+.kawaii-btn-secondary {
+  @apply bg-zinc-100 text-zinc-600 hover:bg-zinc-200;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-kawaii-primary-light/30 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-kawaii-primary-light/50;
+}
