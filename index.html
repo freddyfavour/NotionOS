@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NotionOS - AI Daily Planner ✨</title>
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#71717a" />
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968914.png" type="image/png" />
     <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968914.png" />
     <script>
@@ -32,16 +30,6 @@
           event.preventDefault();
         }
       });
-
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').then(registration => {
-            console.log('SW registered: ', registration);
-          }).catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
-          });
-        });
-      }
     </script>
   </head>
   <body>

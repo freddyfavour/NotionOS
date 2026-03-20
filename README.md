@@ -11,7 +11,6 @@
 - **🎨 20+ Kawaii Themes:** Customize your experience with a wide palette of magical colors.
 - **📅 Visual Calendar:** See your tasks and goals laid out in a beautiful, intuitive calendar view.
 - **💬 AI Chat Assistant:** Get help, advice, or quick updates through the integrated AI agent.
-- **📱 PWA Ready:** Install NotionOS on your phone or desktop for a native-like experience.
 - **🎯 Goal Tracking:** Monitor your progress on long-term goals with visual progress bars.
 
 ## 🚀 Getting Started
@@ -26,7 +25,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/freddyfavour/notionos.git
+   git clone https://github.com/your-repo/notion-os.git
    cd notion-os
    ```
 
@@ -58,18 +57,10 @@
 - **AI:** Google Gemini API (@google/genai)
 - **Database:** Notion API (@notionhq/client)
 
-## 📱 PWA Installation
-
-NotionOS is a Progressive Web App! To install it:
-
-- **On iOS:** Open in Safari, tap the Share button, and select "Add to Home Screen".
-- **On Android:** Open in Chrome, tap the three dots, and select "Install app".
-- **On Desktop:** Click the install icon in the address bar of Chrome or Edge.
-
 ## 🎨 Customization
 
 You can change the theme by clicking the **Palette** icon in the navigation sidebar. Choose from 20 different magical colors to match your mood!
 
 ---
 
-Made with ✨ and 💖 by Favour Alfred.
+Made with ✨ and 💖 by the NotionOS Team.

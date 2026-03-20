@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Send, Bot, User, Sparkles, Loader2, X, MessageSquare } from 'lucide-react';
+import Markdown from 'react-markdown';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -124,7 +125,13 @@ export function ChatSidebar({ onRefresh }: ChatSidebarProps) {
                       ? 'bg-kawaii-bg text-zinc-700 rounded-tl-none border-2 border-white' 
                       : 'bg-kawaii-primary text-white rounded-tr-none'
                   }`}>
-                    {msg.content}
+                    {msg.role === 'assistant' ? (
+                      <div className="markdown-body prose prose-sm max-w-none prose-p:leading-relaxed prose-pre:bg-zinc-800 prose-pre:text-zinc-100">
+                        <Markdown>{msg.content}</Markdown>
+                      </div>
+                    ) : (
+                      msg.content
+                    )}
                   </div>
                 </motion.div>
               ))}
