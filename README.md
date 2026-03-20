@@ -25,7 +25,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/notion-os.git
+   git clone https://github.com/freddyfavour/notionos.git
    cd notion-os
    ```
 
@@ -63,4 +63,4 @@ You can change the theme by clicking the **Palette** icon in the navigation side
 
 ---
 
-Made with ✨ and 💖 by the NotionOS Team.
+Made with ✨ and 💖 by Favour Alfred.
